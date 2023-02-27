@@ -7,8 +7,11 @@
     <title>Jeferson Luan</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
 </head>
 <body>
+    <header>
     <nav>
         <input type="checkbox" id="check">
 		<label for="check" class="checkbtn">
@@ -16,32 +19,105 @@
 		</label>
         <label class="logo">JL</label>
         <ul>
-            <li><a href="#">Início</a></li>
-            <li><a href="#">Sobre</a></li>
-            <li><a href="#">Projetos</a></li>
-            <li><a href="#">Contato</a></li>
+            <li><a href="#principal">Início</a></li>
+            <li><a href="#sobre-mim">Sobre</a></li>
+            <li><a href="#h2-habilidade">Habilidades</a></li>
+            <li><a href="#contato">Contato</a></li>
         </ul>
     </nav>
-    <div class="principal">
-        <div class="info">
+    </header>
+
+    <main>
+    <div id="principal">
+        <section class="info">
             <p>Olá, eu sou</p>
-            <p id="nome">Jeferson Luan</p>
+            <h1>Jeferson Luan</h1>
             <p>Desenvolvedor front-end</p>
-            
-        </div>
-        <div class="img-principal">
-            <img src="img/img.png" height="427" width="350">
-        </div>
-        <div class="sobre">
-            <p id="sobre"><strong>Sobre mim</strong><br>
-                
-            </p>
-            <p id="pinfo">
-                Meu nome é Jeferson Luan, sou estudante do curso de Tecnologia da Informação na Universidade Federal Rural do Semi-Árido (UFERSA). Tenho interesse por desenvolvimento web, no qual venho estudando a parte de front, tenho conhecimento em html, css e JavaScript.
-            </p>
-        </div>
-        
+        </section>
+        <section>
+            <img src="img/img.png" alt="imagem de Jeferson em forma de cartoon">
+        </section>
     </div>
-    <section></section>
+    
+    <div id="sobre-mim">
+        <section class="sobre">
+            <h2>Sobre mim</h2>
+            <p>Estudante do curso de Tecnologia da Informação na UFERSA, com uma paixão por desenvolvimento web, especificamente no front-end. Possuo habilidades em HTML5, CSS e JavaScript. Além disso, estou em constante busca de evolução e atualização de minhas habilidades, visando me tornar um desenvolvedor Full-Stack, atuando tanto no Front quanto no Back. Sou uma pessoa proativa, comunicativa e sempre curiosa para aprender e desenvolver novos conhecimentos.</p>
+        </section>
+        <section>
+            <img src="/img/sobre.png" alt="ilustração do homem pensado o que falar sobre ele" class="img-padrao">
+        </section>
+    </div>
+
+    <div id="sobre-mim">
+        <section class="sobre">
+            <img src="/img/formação.png" alt="ilustração do conceito do projeto do faculdade" class="img-padrao">
+        </section>
+        <section class="sobre">
+            <h2>Formação Acadêmica</h2><br>
+                <p> - Ensino Médio: Escola Estadual Francisco de Assis da Silva (EEFAS)</p><br>
+                <p> - Graduação: Interdisciplinar em Tecnologia da Informação (UFERSA)</p><br>
+                <p> - Técnico: Informatica para Internet (UFRN)</p>
+        </section>
+    </div>
+
+    <h2 class="h2-habilidade">Habilidades</h2>
+
+    <div id="habilidades">
+        <section class="alinhamento">
+            <img src="/img/habilidades.gif" alt="" class="img-habilidade">
+        </section>
+        <section class="alinhamento">
+            <div class="container">
+                <i class="devicon-html5-plain-wordmark colored"></i>
+                <div class="progress-container">
+                    <div class="progress-bar" style="width: 70%"></div>
+                </div> 
+            </div>
+            <div class="container">
+                <i class="devicon-css3-plain-wordmark colored"></i>
+                <div class="progress-container">
+                    <div class="progress-bar" style="width: 70%"></div>
+                </div> 
+            </div>
+            <div class="container">
+                <i class="devicon-javascript-plain colored"></i>
+                <div class="progress-container">
+                    <div class="progress-bar" style="width: 50%"></div>
+                </div> 
+            </div>    
+            <div class="container">
+                <i class="devicon-java-plain-wordmark colored"></i>
+                <div class="progress-container">
+                    <div class="progress-bar" style="width: 80%"></div>
+                </div> 
+            </div> 
+        </section>
+        <section>
+            <div class="container">
+                <i class="devicon-c-plain colored"></i>
+                <div class="progress-container">
+                    <div class="progress-bar" style="width: 75%"></div>
+                </div> 
+            </div>
+        </section>
+    </div>
+
+    <div id="contato">
+        <section>
+            <p class="p-contato">contato</p>
+            <p>Jefersonluan05@gmail.com</p>
+            <p class="p-social">social</p>
+            <a href="https://www.linkedin.com/in/jeferson-luan-865888183"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" class="img-link" alt="imagem clicável que redirecinal para o linkedin de Jeferson Luan"></a>
+            <a href="mailto:jefersonluan05@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" class="img-link" alt="imagem clicável que redirecinal para o e-mail de Jeferson Luan"></a>
+            <a href="https://github.com/jefersonluan"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" class="img-link" alt="imagem clicável que redirecinal para o github de Jeferson Luan"></a><br>
+            <a href="pdf/jeferson-luan-curriculo.pdf" download target="_self" class="botao-download">Baixar currículo em PDF</a>
+        </section>
+    </div>
+    </main>
+
+    <footer class="center">
+        <p nowrap>Direitos autorais &copy; 2023 Jeferson Luan</p>
+      </footer>
 </body>
 </html>
