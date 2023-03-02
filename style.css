@@ -167,7 +167,7 @@ a.active, a:hover{
     width: 367px;
     height: 305px;
   }
-#sobre-mim{
+#sobre-mim,.sobre-mim{
     background-color: #fff;
     padding: 50px 20px 50px 20px;
     display: flex;
@@ -219,6 +219,7 @@ i.devicon-c-plain {
     background-color: #fff;
     border-radius: 20px;
     margin-left: 40px;
+    border-style: inset;
   }
   
   .progress-bar {
@@ -231,7 +232,7 @@ i.devicon-c-plain {
 
   #contato{
     background-color: #fff;
-    padding: 150px 20px 50px 20px;
+    padding: 120px 20px 50px 20px;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -240,9 +241,13 @@ i.devicon-c-plain {
     font-size: 28px;
   }
 
-  .p-contato{
+  .h2-contato{
     font-size: 21px;
     margin-bottom: 20px;
+    background-color: #fff;
+    color: #104455;
+    font-weight: bold;
+    padding: 0;
   }
   .p-social{
     margin-top: 150px;
@@ -264,3 +269,11 @@ i.devicon-c-plain {
     padding: 10px 20px;
     text-decoration: none;
   }
+
+.direitos-autorais{
+    white-space: nowrap;
+    color: #999;
+    font-size: 1rem;
+    margin-top: 0.4rem;
+    padding: 0.1rem;
+}
